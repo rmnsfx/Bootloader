@@ -1,0 +1,27 @@
+
+T0E34 000:290 SEGGER J-Link V4.96d Log File (0001ms, 0276ms total)
+T0E34 000:290 DLL Compiled: Jan 29 2015 11:45:37 (0001ms, 0276ms total)
+T0E34 000:290 Logging started @ 2016-11-02 16:45 (0001ms, 0276ms total)
+T0E34 000:291 JLINK_SetWarnOutHandler(...) (0000ms, 0276ms total)
+T0E34 000:291 JLINK_OpenEx(...)
+Firmware: J-Link Ultra Rev.1 compiled Dec  3 2013 14:27:53
+Hardware: V1.00
+S/N: 281100043
+Feature(s): RDI, FlashBP, FlashDL, JFlash, GDB  returns O.K. (0256ms, 0532ms total)
+T0E34 000:547 JLINK_SetErrorOutHandler(...) (0000ms, 0532ms total)
+T0E34 000:547 JLINK_ExecCommand("ProjectFile = "C:\Users\SavchenkoRS\Desktop\SVN\new_loader\JLinkSettings.ini"", ...)  returns 0x00 (0001ms, 0533ms total)
+T0E34 000:553 JLINK_ExecCommand("Device = STM32F103RE", ...)Device "STM32F103RE" selected.  returns 0x00 (0001ms, 0534ms total)
+T0E34 000:554 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0534ms total)
+T0E34 000:554 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 0534ms total)
+T0E34 000:554 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0534ms total)
+T0E34 000:554 JLINK_GetFirmwareString(...) (0000ms, 0534ms total)
+T0E34 000:557 JLINK_GetDLLVersion()  returns 49604 (0000ms, 0534ms total)
+T0E34 000:557 JLINK_GetCompileDateTime() (0000ms, 0534ms total)
+T0E34 000:558 JLINK_GetFirmwareString(...) (0000ms, 0534ms total)
+T0E34 000:558 JLINK_GetHardwareVersion()  returns 0x2710 (0000ms, 0534ms total)
+T0E34 000:561 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0003ms, 0537ms total)
+T0E34 000:564 JLINK_SetSpeed(50000) (0001ms, 0538ms total)
+T0E34 000:565 JLINK_GetIdData(...) (0000ms, 0538ms total)
+T0E34 001:982 JLINK_Close() (0001ms, 0539ms total)
+T0E34 001:982  (0001ms, 0539ms total)
+T0E34 001:982 Closed (0001ms, 0539ms total)

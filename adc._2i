@@ -1,0 +1,7 @@
+-c --cpu Cortex-M3 -g -W -O0 --apcs=interwork -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\USB -I.\FAT -I.\OLED -I.\MENU -I..\new_loader -I.\fatfs
+-I C:\Users\SavchenkoRS\Desktop\SVN\new_loader\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-D__UVISION_VERSION="514" -DSTM32F10X_HD -DARM_MATH_CM3
+-o .\adc.o --omf_browse .\adc.crf --depend .\adc.d --feedback ".\Main_project.fed" "ADC.c"
