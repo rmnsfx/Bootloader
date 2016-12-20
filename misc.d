@@ -1,12 +1,12 @@
 .\misc.o: DRIVER\src\misc.c
 .\misc.o: .\DRIVER\inc\misc.h
-.\misc.o: ..\new_loader\stm32f10x.h
+.\misc.o: ..\Bootloader\stm32f10x.h
 .\misc.o: .\CMSIS\core_cm3.h
 .\misc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\misc.o: .\CMSIS\system_stm32f10x.h
-.\misc.o: ..\new_loader\stm32f10x_conf.h
+.\misc.o: ..\Bootloader\stm32f10x_conf.h
 .\misc.o: .\DRIVER\inc\stm32f10x_adc.h
-.\misc.o: ..\new_loader\stm32f10x.h
+.\misc.o: ..\Bootloader\stm32f10x.h
 .\misc.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\misc.o: .\DRIVER\inc\stm32f10x_dma.h
 .\misc.o: .\DRIVER\inc\stm32f10x_gpio.h

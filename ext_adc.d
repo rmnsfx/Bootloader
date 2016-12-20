@@ -6,7 +6,7 @@
 .\ext_adc.o: .\CMSIS\system_stm32f10x.h
 .\ext_adc.o: stm32f10x_conf.h
 .\ext_adc.o: .\DRIVER\inc\stm32f10x_adc.h
-.\ext_adc.o: ..\new_loader\stm32f10x.h
+.\ext_adc.o: ..\Bootloader\stm32f10x.h
 .\ext_adc.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\ext_adc.o: .\DRIVER\inc\stm32f10x_dma.h
 .\ext_adc.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -31,6 +31,6 @@
 .\ext_adc.o: .\FAT\File_Config.h
 .\ext_adc.o: regmap.h
 .\ext_adc.o: .\USB\mscuser.h
-.\ext_adc.o: ..\new_loader\main.h
+.\ext_adc.o: ..\Bootloader\main.h
 .\ext_adc.o: .\FAT\File_Config.h
 .\ext_adc.o: params.h

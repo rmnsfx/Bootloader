@@ -1,11 +1,11 @@
 .\usbhw.o: USB\usbhw.c
-.\usbhw.o: ..\new_loader\stm32f10x.h
+.\usbhw.o: ..\Bootloader\stm32f10x.h
 .\usbhw.o: .\CMSIS\core_cm3.h
 .\usbhw.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\usbhw.o: .\CMSIS\system_stm32f10x.h
-.\usbhw.o: ..\new_loader\stm32f10x_conf.h
+.\usbhw.o: ..\Bootloader\stm32f10x_conf.h
 .\usbhw.o: .\DRIVER\inc\stm32f10x_adc.h
-.\usbhw.o: ..\new_loader\stm32f10x.h
+.\usbhw.o: ..\Bootloader\stm32f10x.h
 .\usbhw.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\usbhw.o: .\DRIVER\inc\stm32f10x_dma.h
 .\usbhw.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -22,4 +22,4 @@
 .\usbhw.o: USB\usbreg.h
 .\usbhw.o: USB\usbhw.h
 .\usbhw.o: USB\usbuser.h
-.\usbhw.o: ..\new_loader\Pin.h
+.\usbhw.o: ..\Bootloader\Pin.h

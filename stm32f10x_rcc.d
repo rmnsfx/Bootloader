@@ -1,12 +1,12 @@
 .\stm32f10x_rcc.o: DRIVER\src\stm32f10x_rcc.c
 .\stm32f10x_rcc.o: .\DRIVER\inc\stm32f10x_rcc.h
-.\stm32f10x_rcc.o: ..\new_loader\stm32f10x.h
+.\stm32f10x_rcc.o: ..\Bootloader\stm32f10x.h
 .\stm32f10x_rcc.o: .\CMSIS\core_cm3.h
 .\stm32f10x_rcc.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\stm32f10x_rcc.o: .\CMSIS\system_stm32f10x.h
-.\stm32f10x_rcc.o: ..\new_loader\stm32f10x_conf.h
+.\stm32f10x_rcc.o: ..\Bootloader\stm32f10x_conf.h
 .\stm32f10x_rcc.o: .\DRIVER\inc\stm32f10x_adc.h
-.\stm32f10x_rcc.o: ..\new_loader\stm32f10x.h
+.\stm32f10x_rcc.o: ..\Bootloader\stm32f10x.h
 .\stm32f10x_rcc.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\stm32f10x_rcc.o: .\DRIVER\inc\stm32f10x_dma.h
 .\stm32f10x_rcc.o: .\DRIVER\inc\stm32f10x_gpio.h

@@ -1,4 +1,4 @@
-;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Wed Nov 02 16:53:39 2016
+;#<FEEDBACK># ARM Linker, 5050106: Last Updated: Fri Dec 09 13:25:21 2016
 ;VERSION 0.2
 ;FILE _fs_fclose.o
 ;FILE _fs_fcreate.o
@@ -145,6 +145,7 @@ FR_print_error <= USED 0
 SERVICE_ACC2 <= USED 0
 men_CALLBACK <= USED 0
 men_CALL_CUB_ITEM <= USED 0
+men_CHECK_EVENT <= USED 0
 men_CLEAR_ITEM <= USED 0
 men_DEC_POINT <= USED 0
 men_DW_MENU <= USED 0
@@ -170,6 +171,7 @@ men_SHOW_ITEM_VALUE <= USED 0
 men_SHOW_LARGE_BAT <= USED 0
 men_SHOW_MAINFORMS <= USED 0
 men_SHOW_MENU <= USED 0
+men_SHOW_MESSAGE <= USED 0
 men_SHOW_ONEITEM <= USED 0
 men_SHOW_RECT <= USED 0
 men_SHOW_REFRESH <= USED 0

@@ -1,11 +1,11 @@
 .\mscuser.o: USB\mscuser.c
-.\mscuser.o: ..\new_loader\stm32f10x.h
+.\mscuser.o: ..\Bootloader\stm32f10x.h
 .\mscuser.o: .\CMSIS\core_cm3.h
 .\mscuser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\mscuser.o: .\CMSIS\system_stm32f10x.h
-.\mscuser.o: ..\new_loader\stm32f10x_conf.h
+.\mscuser.o: ..\Bootloader\stm32f10x_conf.h
 .\mscuser.o: .\DRIVER\inc\stm32f10x_adc.h
-.\mscuser.o: ..\new_loader\stm32f10x.h
+.\mscuser.o: ..\Bootloader\stm32f10x.h
 .\mscuser.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\mscuser.o: .\DRIVER\inc\stm32f10x_dma.h
 .\mscuser.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -25,7 +25,7 @@
 .\mscuser.o: USB\usbhw.h
 .\mscuser.o: USB\usbcore.h
 .\mscuser.o: USB\mscuser.h
-.\mscuser.o: ..\new_loader\main.h
+.\mscuser.o: ..\Bootloader\main.h
 .\mscuser.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\mscuser.o: .\FAT\File_Config.h
 .\mscuser.o: USB\memory.h

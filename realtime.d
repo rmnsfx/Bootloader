@@ -7,7 +7,7 @@
 .\realtime.o: .\CMSIS\system_stm32f10x.h
 .\realtime.o: stm32f10x_conf.h
 .\realtime.o: .\DRIVER\inc\stm32f10x_adc.h
-.\realtime.o: ..\new_loader\stm32f10x.h
+.\realtime.o: ..\Bootloader\stm32f10x.h
 .\realtime.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\realtime.o: .\DRIVER\inc\stm32f10x_dma.h
 .\realtime.o: .\DRIVER\inc\stm32f10x_gpio.h

@@ -5,7 +5,7 @@
 .\fft_calc.o: .\CMSIS\system_stm32f10x.h
 .\fft_calc.o: stm32f10x_conf.h
 .\fft_calc.o: .\DRIVER\inc\stm32f10x_adc.h
-.\fft_calc.o: ..\new_loader\stm32f10x.h
+.\fft_calc.o: ..\Bootloader\stm32f10x.h
 .\fft_calc.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\fft_calc.o: .\DRIVER\inc\stm32f10x_dma.h
 .\fft_calc.o: .\DRIVER\inc\stm32f10x_gpio.h

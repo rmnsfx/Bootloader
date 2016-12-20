@@ -6,7 +6,7 @@
 .\fm25v10.o: .\CMSIS\system_stm32f10x.h
 .\fm25v10.o: stm32f10x_conf.h
 .\fm25v10.o: .\DRIVER\inc\stm32f10x_adc.h
-.\fm25v10.o: ..\new_loader\stm32f10x.h
+.\fm25v10.o: ..\Bootloader\stm32f10x.h
 .\fm25v10.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\fm25v10.o: .\DRIVER\inc\stm32f10x_dma.h
 .\fm25v10.o: .\DRIVER\inc\stm32f10x_gpio.h

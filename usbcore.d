@@ -8,7 +8,7 @@
 .\usbcore.o: USB\usbuser.h
 .\usbcore.o: USB\msc.h
 .\usbcore.o: USB\mscuser.h
-.\usbcore.o: ..\new_loader\main.h
+.\usbcore.o: ..\Bootloader\main.h
 .\usbcore.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\usbcore.o: .\FAT\File_Config.h
 .\usbcore.o: .\FAT\RTL.h

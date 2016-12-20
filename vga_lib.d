@@ -1,12 +1,12 @@
 .\vga_lib.o: OLED\vga_lib.c
 .\vga_lib.o: OLED\ssd1303.h
-.\vga_lib.o: ..\new_loader\stm32f10x.h
+.\vga_lib.o: ..\Bootloader\stm32f10x.h
 .\vga_lib.o: .\CMSIS\core_cm3.h
 .\vga_lib.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\vga_lib.o: .\CMSIS\system_stm32f10x.h
-.\vga_lib.o: ..\new_loader\stm32f10x_conf.h
+.\vga_lib.o: ..\Bootloader\stm32f10x_conf.h
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_adc.h
-.\vga_lib.o: ..\new_loader\stm32f10x.h
+.\vga_lib.o: ..\Bootloader\stm32f10x.h
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_dma.h
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -17,8 +17,8 @@
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_tim.h
 .\vga_lib.o: .\DRIVER\inc\stm32f10x_usart.h
 .\vga_lib.o: .\DRIVER\inc\misc.h
-.\vga_lib.o: ..\new_loader\Pin.h
+.\vga_lib.o: ..\Bootloader\Pin.h
 .\vga_lib.o: OLED\vga_lib.h
 .\vga_lib.o: OLED\font.h
-.\vga_lib.o: ..\new_loader\logos.h
+.\vga_lib.o: ..\Bootloader\logos.h
 .\vga_lib.o: OLED\logo.h

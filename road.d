@@ -5,7 +5,7 @@
 .\road.o: .\CMSIS\system_stm32f10x.h
 .\road.o: stm32f10x_conf.h
 .\road.o: .\DRIVER\inc\stm32f10x_adc.h
-.\road.o: ..\new_loader\stm32f10x.h
+.\road.o: ..\Bootloader\stm32f10x.h
 .\road.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\road.o: .\DRIVER\inc\stm32f10x_dma.h
 .\road.o: .\DRIVER\inc\stm32f10x_gpio.h

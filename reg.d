@@ -9,7 +9,7 @@
 .\reg.o: .\CMSIS\system_stm32f10x.h
 .\reg.o: stm32f10x_conf.h
 .\reg.o: .\DRIVER\inc\stm32f10x_adc.h
-.\reg.o: ..\new_loader\stm32f10x.h
+.\reg.o: ..\Bootloader\stm32f10x.h
 .\reg.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\reg.o: .\DRIVER\inc\stm32f10x_dma.h
 .\reg.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -30,7 +30,7 @@
 .\reg.o: .\FAT\File_Config.h
 .\reg.o: regmap.h
 .\reg.o: .\USB\mscuser.h
-.\reg.o: ..\new_loader\main.h
+.\reg.o: ..\Bootloader\main.h
 .\reg.o: .\FAT\File_Config.h
 .\reg.o: main.h
 .\reg.o: .\FAT\File_Config.h

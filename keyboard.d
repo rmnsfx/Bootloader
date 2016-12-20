@@ -7,7 +7,7 @@
 .\keyboard.o: .\CMSIS\system_stm32f10x.h
 .\keyboard.o: stm32f10x_conf.h
 .\keyboard.o: .\DRIVER\inc\stm32f10x_adc.h
-.\keyboard.o: ..\new_loader\stm32f10x.h
+.\keyboard.o: ..\Bootloader\stm32f10x.h
 .\keyboard.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\keyboard.o: .\DRIVER\inc\stm32f10x_dma.h
 .\keyboard.o: .\DRIVER\inc\stm32f10x_gpio.h

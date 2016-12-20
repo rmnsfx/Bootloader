@@ -5,7 +5,7 @@
 .\flash_at45db.o: .\CMSIS\system_stm32f10x.h
 .\flash_at45db.o: stm32f10x_conf.h
 .\flash_at45db.o: .\DRIVER\inc\stm32f10x_adc.h
-.\flash_at45db.o: ..\new_loader\stm32f10x.h
+.\flash_at45db.o: ..\Bootloader\stm32f10x.h
 .\flash_at45db.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\flash_at45db.o: .\DRIVER\inc\stm32f10x_dma.h
 .\flash_at45db.o: .\DRIVER\inc\stm32f10x_gpio.h

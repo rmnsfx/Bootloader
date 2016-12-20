@@ -5,7 +5,7 @@
 .\main_1.o: .\CMSIS\system_stm32f10x.h
 .\main_1.o: stm32f10x_conf.h
 .\main_1.o: .\DRIVER\inc\stm32f10x_adc.h
-.\main_1.o: ..\new_loader\stm32f10x.h
+.\main_1.o: ..\Bootloader\stm32f10x.h
 .\main_1.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\main_1.o: .\DRIVER\inc\stm32f10x_dma.h
 .\main_1.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -30,7 +30,7 @@
 .\main_1.o: .\USB\usbhw.h
 .\main_1.o: .\USB\usbcore.h
 .\main_1.o: .\USB\mscuser.h
-.\main_1.o: ..\new_loader\main.h
+.\main_1.o: ..\Bootloader\main.h
 .\main_1.o: .\FAT\File_Config.h
 .\main_1.o: .\USB\memory.h
 .\main_1.o: FileIO.h
@@ -40,7 +40,7 @@
 .\main_1.o: ADC.h
 .\main_1.o: Pin.h
 .\main_1.o: .\OLED\ssd1303.h
-.\main_1.o: ..\new_loader\Pin.h
+.\main_1.o: ..\Bootloader\Pin.h
 .\main_1.o: FM25V10.h
 .\main_1.o: main.h
 .\main_1.o: .\FAT\File_Config.h
@@ -51,7 +51,7 @@
 .\main_1.o: .\MENU\Types.h
 .\main_1.o: Keyboard.h
 .\main_1.o: .\MENU\Menu.h
-.\main_1.o: ..\new_loader\Pin.h
+.\main_1.o: ..\Bootloader\Pin.h
 .\main_1.o: .\fatfs\ff.h
 .\main_1.o: .\fatfs\integer.h
 .\main_1.o: .\fatfs\ffconf.h

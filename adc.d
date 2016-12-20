@@ -5,7 +5,7 @@
 .\adc.o: .\CMSIS\system_stm32f10x.h
 .\adc.o: stm32f10x_conf.h
 .\adc.o: .\DRIVER\inc\stm32f10x_adc.h
-.\adc.o: ..\new_loader\stm32f10x.h
+.\adc.o: ..\Bootloader\stm32f10x.h
 .\adc.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\adc.o: .\DRIVER\inc\stm32f10x_dma.h
 .\adc.o: .\DRIVER\inc\stm32f10x_gpio.h

@@ -642,9 +642,9 @@ TStatus FAT_Init(void)
 	res = finit();   
 	
 	//sprintf(str, "%d", res);
-	if (res == 2) men_SHOW_MESSAGE("Ошибка MBR", "", 100);		
-	if (res == 3) men_SHOW_MESSAGE("Ошибка Boot Record", "", 100);		
-	if (res == 4) men_SHOW_MESSAGE("Ошибка FAT", "", 100);				
+//	if (res == 2) men_SHOW_MESSAGE("Ошибка MBR", "", 100);		
+//	if (res == 3) men_SHOW_MESSAGE("Ошибка Boot Record", "", 100);		
+//	if (res == 4) men_SHOW_MESSAGE("Ошибка FAT", "", 100);				
 
   return res;	 
 }
@@ -737,7 +737,7 @@ int main(void)
 	if (key_CHECK_EV(key_EVENT_PRESSED_MESUARE))
 	{
 		vga_SET_POS_TEXT(1,1);
-		vga_PRINT_STR("Загрузчик 3.0",&FONT_6x8);	
+		vga_PRINT_STR("Загрузчик 3.1",&FONT_6x8);	
 		vga_UPDATE();
 
 		while (!pin_USB_5V);		
@@ -830,10 +830,10 @@ int main(void)
 			FLASH_Lock();				
 			
 			vga_CLEAR();
-			vga_SET_POS_TEXT(1,25);
-			vga_PRINT_STR("Обновление завершено!",&FONT_6x8);
-			vga_SET_POS_TEXT(1,45);
-			vga_PRINT_STR("Нажмите ENTER.",&FONT_6x8);
+			vga_SET_POS_TEXT(1,1);
+			vga_PRINT_STR("Обновление завершено,",&FONT_6x8);
+			vga_SET_POS_TEXT(1,20);
+			vga_PRINT_STR("нажмите Enter.",&FONT_6x8);
 			vga_UPDATE();	
 			
 			while (!key_CHECK_EV(key_EVENT_PRESSED_ENTER));

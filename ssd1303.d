@@ -1,12 +1,12 @@
 .\ssd1303.o: OLED\ssd1303.c
 .\ssd1303.o: OLED\ssd1303.h
-.\ssd1303.o: ..\new_loader\stm32f10x.h
+.\ssd1303.o: ..\Bootloader\stm32f10x.h
 .\ssd1303.o: .\CMSIS\core_cm3.h
 .\ssd1303.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 .\ssd1303.o: .\CMSIS\system_stm32f10x.h
-.\ssd1303.o: ..\new_loader\stm32f10x_conf.h
+.\ssd1303.o: ..\Bootloader\stm32f10x_conf.h
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_adc.h
-.\ssd1303.o: ..\new_loader\stm32f10x.h
+.\ssd1303.o: ..\Bootloader\stm32f10x.h
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_dma.h
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -17,4 +17,4 @@
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_tim.h
 .\ssd1303.o: .\DRIVER\inc\stm32f10x_usart.h
 .\ssd1303.o: .\DRIVER\inc\misc.h
-.\ssd1303.o: ..\new_loader\Pin.h
+.\ssd1303.o: ..\Bootloader\Pin.h

@@ -8,7 +8,7 @@
 .\flash.o: .\CMSIS\system_stm32f10x.h
 .\flash.o: stm32f10x_conf.h
 .\flash.o: .\DRIVER\inc\stm32f10x_adc.h
-.\flash.o: ..\new_loader\stm32f10x.h
+.\flash.o: ..\Bootloader\stm32f10x.h
 .\flash.o: .\DRIVER\inc\stm32f10x_bkp.h
 .\flash.o: .\DRIVER\inc\stm32f10x_dma.h
 .\flash.o: .\DRIVER\inc\stm32f10x_gpio.h
@@ -21,7 +21,7 @@
 .\flash.o: .\DRIVER\inc\misc.h
 .\flash.o: .\USB\mscuser.h
 .\flash.o: .\USB\type.h
-.\flash.o: ..\new_loader\main.h
+.\flash.o: ..\Bootloader\main.h
 .\flash.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 .\flash.o: .\FAT\File_Config.h
 .\flash.o: FM25V10.h

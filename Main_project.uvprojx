@@ -365,7 +365,7 @@
               <MiscControls></MiscControls>
               <Define>ARM_MATH_CM3</Define>
               <Undefine></Undefine>
-              <IncludePath>.\CMSIS;.\DRIVER\inc;.\DRIVER\src;.\USB;.\FAT;.\OLED;.\MENU;..\new_loader;.\fatfs</IncludePath>
+              <IncludePath>.\CMSIS;.\DRIVER\inc;.\DRIVER\src;.\USB;.\FAT;.\OLED;.\MENU;..\new_loader;.\fatfs;..\Bootloader</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
