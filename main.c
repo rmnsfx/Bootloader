@@ -704,6 +704,9 @@ int main(void)
 	uint16_t crc = 0xffff;
 	uint8_t bf[2];
 	
+	__disable_irq();
+	__disable_fiq();
+	
   GPIO_SETUP();
 
   Delay(100000);
@@ -734,10 +737,13 @@ int main(void)
 	//men_SHOW_MESSAGE("bootloader1", "", 100);			
 	
 	
+	__enable_irq();
+	__enable_fiq();
+	
 	if (key_CHECK_EV(key_EVENT_PRESSED_MESUARE))
 	{
 		vga_SET_POS_TEXT(1,1);
-		vga_PRINT_STR("Загрузчик 3.1",&FONT_6x8);	
+		vga_PRINT_STR("Загрузчик 3.2",&FONT_6x8);	
 		vga_UPDATE();
 
 		while (!pin_USB_5V);		
