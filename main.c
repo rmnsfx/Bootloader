@@ -790,7 +790,7 @@ int main(void)
 				vga_SET_POS_TEXT(1,25);
 				vga_PRINT_STR("ошибка CRC.",&FONT_6x8);
 				vga_SET_POS_TEXT(1,45);
-				vga_PRINT_STR("Нажмите ENTER.",&FONT_6x8);
+				vga_PRINT_STR("Нажмите ВВОД.",&FONT_6x8);
 				vga_UPDATE();								
 				
 				while (!key_CHECK_EV(key_EVENT_PRESSED_ENTER));		
@@ -824,7 +824,7 @@ int main(void)
 				
 				while (1)
 				{						
-						res = f_read( &Fil, bt, sizeof(unsigned int), &br );	
+						res = f_read( &Fil, bt, sizeof(uint32_t), &br );	
 						if (br == 0) break;
 						f_res = FLASH_ProgramWord(0x8010000+i*4,bt[0]);
 						i++;						
@@ -839,7 +839,7 @@ int main(void)
 			vga_SET_POS_TEXT(1,1);
 			vga_PRINT_STR("Обновление завершено,",&FONT_6x8);
 			vga_SET_POS_TEXT(1,20);
-			vga_PRINT_STR("нажмите Enter.",&FONT_6x8);
+			vga_PRINT_STR("нажмите ВВОД.",&FONT_6x8);
 			vga_UPDATE();	
 			
 			while (!key_CHECK_EV(key_EVENT_PRESSED_ENTER));
