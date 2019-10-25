@@ -1,7 +1,7 @@
 -c --cpu Cortex-M3 -g -W -O0 --apcs=interwork -I.\CMSIS -I.\DRIVER\inc -I.\DRIVER\src -I.\USB -I.\FAT -I.\OLED -I.\MENU -I..\new_loader -I.\fatfs -I..\Bootloader
--I C:\Users\SavchenkoRS\Source\Repos\Bootloader\RTE
--I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0
+-I D:\Repos\Bootloader\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0
 -I C:\Keil_v5\ARM\CMSIS\Include
--I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.1.0\Device\Include
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
 -D__UVISION_VERSION="514" -DSTM32F10X_HD -DARM_MATH_CM3
 -o .\iir.o --omf_browse .\iir.crf --depend .\iir.d --feedback ".\Main_project.fed" "IIR.c"
