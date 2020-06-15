@@ -73,6 +73,6 @@ extern FATINFO sdinfo;
 
 
 //extern float  k_reg_mul;
-#define VER 330
+#define VER 340
 
 #endif
