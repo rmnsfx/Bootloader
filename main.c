@@ -673,20 +673,29 @@ void CONTROL_RTC(void)
 
 void JumpToApplication(uint32_t addr)
 {
-		typedef  void (*pFunction)(void);
-		pFunction Jump_To_Application;
-		uint32_t JumpAddress;
+    unsigned int i;
+    typedef  void (*pFunction)(void);
+    pFunction Jump_To_Application;
+    uint32_t JumpAddress;
 
-		JumpAddress = *(uint32_t*) (addr + 4);
-		Jump_To_Application = (pFunction) JumpAddress;
+    //Disable basic interrupts
+    __disable_irq();
+    __DSB();
+    __ISB();
+    //Disable NVIC interrupts
+    for (i = WWDG_IRQn; i <= USBWakeUp_IRQn; i++)  // USBWakeUp_IRQn - last IRQn in stm32f10x.h (for STM32F10X_MD)
+		{
+        NVIC_DisableIRQ(i);
+		}
+  
+    JumpAddress = *(uint32_t*) (addr + 4);
+    Jump_To_Application = (pFunction) JumpAddress;
 
-		/* Initialize user application's Stack Pointer */
-		__set_MSP(*(vu32*) addr);
-		NVIC_SetVectorTable(NVIC_VectTab_FLASH, addr-0x8000000);
-		Jump_To_Application();		 
+    /* Initialize user application's Stack Pointer */
+    __set_MSP(*(vu32*) addr);
+    NVIC_SetVectorTable(NVIC_VectTab_FLASH, addr-0x8000000);
+    Jump_To_Application();
 }
-
-
 
 
 
