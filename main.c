@@ -763,7 +763,7 @@ int main(void)
 	if (key_CHECK_EV(key_EVENT_PRESSED_MESUARE))
 	{
 		vga_SET_POS_TEXT(1,1);
-		vga_PRINT_STR("Загрузчик 3.4",&FONT_6x8);	
+		vga_PRINT_STR("Загрузчик 3.5",&FONT_6x8);	
 		vga_UPDATE();
 
 		while (!pin_USB_5V);		
